@@ -1,0 +1,16 @@
+#pragma once
+
+#include "Header.idl"
+
+module idl_msg{
+
+struct AttitudeRateCommand {
+
+  Header header;
+
+  float roll_rate;
+  float pitch_rate;
+  float yaw_rate;
+};
+
+};

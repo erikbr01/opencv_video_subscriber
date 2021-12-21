@@ -1,0 +1,16 @@
+#pragma once
+
+#include "Header.idl"
+
+module idl_msg{
+
+struct AttitudeCommand {
+
+  Header header;
+
+  float roll;
+  float pitch;
+  float yaw;
+};
+
+};
