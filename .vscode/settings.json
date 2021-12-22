@@ -2,7 +2,8 @@
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "files.associations": {
         "chrono": "cpp",
-        "__mutex_base": "cpp"
+        "__mutex_base": "cpp",
+        "iostream": "cpp"
     },
     "cortex-debug.armToolchainPath": "/usr/local/bin",
     "cortex-debug.openocdPath": "/usr/local/bin/openocd"

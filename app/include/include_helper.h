@@ -5,6 +5,11 @@
 #include "imghd_sub_callback.h"
 #include "sensor_msgs/msgs/Image720p.h"
 
+#include "MocapPubSubTypes.h"
+#include "default_participant.h"
+#include "default_publisher.h"
+#include "sensor_msgs/msgs/Mocap.h"
+
 // C++ native
 #include <array>
 #include <cstdint>
@@ -21,4 +26,5 @@
 #include <opencv2/imgproc.hpp>
 #include <opencv2/opencv.hpp>
 
+#include "calibrator.h"
 #include <aruco_functions.h>

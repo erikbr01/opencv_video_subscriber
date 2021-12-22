@@ -2,6 +2,7 @@
 add_executable(opencv_video_subscriber 
 src/main.cpp
 src/aruco_functions.cpp
+src/calibrator.cpp
 )
 
 target_include_directories(opencv_video_subscriber PUBLIC include)
