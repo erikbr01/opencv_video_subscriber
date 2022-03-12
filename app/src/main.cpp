@@ -207,7 +207,7 @@ int main() {
 
     // Show image in window
     imshow("Detector", frame);
-
+    std::cout << "showing new frame" << std::endl;
     if (waitKey(30) >= 0)
       break;
   }
